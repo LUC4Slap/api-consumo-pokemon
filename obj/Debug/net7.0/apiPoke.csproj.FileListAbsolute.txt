@@ -32,3 +32,37 @@
 /home/lucas/Área de Trabalho/projetos/apiPoke/obj/Debug/net7.0/apiPoke.pdb
 /home/lucas/Área de Trabalho/projetos/apiPoke/obj/Debug/net7.0/apiPoke.genruntimeconfig.cache
 /home/lucas/Área de Trabalho/projetos/apiPoke/obj/Debug/net7.0/ref/apiPoke.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\appsettings.json
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\apiPoke.exe
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\apiPoke.deps.json
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\apiPoke.runtimeconfig.json
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\apiPoke.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\apiPoke.pdb
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.AssemblyInfo.cs
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\staticwebassets\msbuild.apiPoke.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\staticwebassets\msbuild.build.apiPoke.props
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.apiPoke.props
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.apiPoke.props
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\scopedcss\bundle\apiPoke.styles.css
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.csproj.CopyComplete
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\refint\apiPoke.dll
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.pdb
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\apiPoke.genruntimeconfig.cache
+C:\Users\user\Desktop\DioC#\api-consumo-pokemon\obj\Debug\net7.0\ref\apiPoke.dll

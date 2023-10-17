@@ -1,14 +1,14 @@
-using Microsoft.AspNetCore.Mvc;
-
-namespace apiPoke.Controllers;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 
 [ApiController]
-[Route("[controller]")]
-public class TesteController: ControllerBase {
-    
-    [HttpGet(Name = "Teste")]
-    public static string Teste()
+[Route("teste")]
+public class TesteController : ControllerBase
+{
+    [HttpGet]
+    public string Teste()
     {
-        return "TESTE FUNCIONANDO";
+        return "Olá Mundo";
     }
+
 }

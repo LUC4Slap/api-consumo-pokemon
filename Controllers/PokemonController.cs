@@ -1,18 +1,56 @@
+
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Net;
 using apiPoke.Entities;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Net;
 
 namespace apiPoke.Controllers;
 
 [ApiController]
-[Route("V1/pokemons")]
-public class PokemonsController: ControllerBase
+[Route("v1/pokemons")]
+public class PokemonController : ControllerBase
 {
-    [HttpGet(Name = "getPokemons")]
-    public static async Task<IResult> getPokemons()
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
     {
-        var url = "https://pokeapi.co/api/v2/pokemon/";
+        var url = "https://pokeapi.co/api/v2/pokemon/?offset=1&limit=1292";
+        try
+        {
+            HttpClient client = new HttpClient();
+            var response = await client.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var json = await response.Content.ReadAsStringAsync();
+                var result = JsonConvert.DeserializeObject<PokemonList>(json);
+
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            else
+            {
+                // Trate os diferentes códigos de status HTTP, se necessário.
+                return StatusCode((int)response.StatusCode);
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500); // Erro interno do servidor
+        }
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IResult> getPokemons(int id)
+    {
+        var url = $"https://pokeapi.co/api/v2/pokemon/{id}";
         try
         {
             HttpClient client = new HttpClient();
@@ -20,12 +58,14 @@ public class PokemonsController: ControllerBase
             if (response.StatusCode == HttpStatusCode.BadRequest) return Results.BadRequest();
             var json = await response.Content.ReadAsStringAsync();
             var jsonObject = JsonConvert.DeserializeObject<PokemonEntiti>(json);
-             if(jsonObject != null) {
-                 return Results.Ok(jsonObject);
-             } else
-             {
-                 return Results.NotFound();
-             }
+            if (jsonObject != null)
+            {
+                return Results.Ok(jsonObject);
+            }
+            else
+            {
+                return Results.NotFound();
+            }
         }
         catch (Exception e)
         {

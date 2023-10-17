@@ -504,24 +504,32 @@
     ]
   },
   "packageFolders": {
-    "/home/lucas/.nuget/packages/": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucas/Área de Trabalho/projetos/apiPoke/apiPoke.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\DioC#\\api-consumo-pokemon\\apiPoke.csproj",
       "projectName": "apiPoke",
-      "projectPath": "/home/lucas/Área de Trabalho/projetos/apiPoke/apiPoke.csproj",
-      "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/Área de Trabalho/projetos/apiPoke/obj/",
+      "projectPath": "C:\\Users\\user\\Desktop\\DioC#\\api-consumo-pokemon\\apiPoke.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\DioC#\\api-consumo-pokemon\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/lucas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -572,7 +580,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/lucas/.dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }
